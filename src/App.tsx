@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // pages
 import Home from "./pages/Home/Home";
@@ -8,6 +8,7 @@ import Home from "./pages/Home/Home";
 const pages = {
   home: Home,
 };
+
 const App = () => {
   return (
     <div className="App">
