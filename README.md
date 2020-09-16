@@ -1,5 +1,13 @@
 # Custom React.js template
 
+Custom React.js template with the following additional packages:
+
+- Typescript
+- scss
+- React Router
+- MobX
+- dotenv
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
