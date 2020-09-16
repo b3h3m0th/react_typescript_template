@@ -12,6 +12,9 @@ const stores = {
   exampleStore,
 };
 
+// dotenv
+require("dotenv").config();
+
 ReactDOM.render(
   <React.StrictMode>
     <StoreProvider {...stores}>
