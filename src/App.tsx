@@ -14,9 +14,10 @@ const App = () => {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/home" component={pages.home} />
+          <Route
+            component={() => <pages.home title="Simon Ostini"></pages.home>}
+          />
         </Switch>
-        <div>Simon Ostini React Typescript template</div>
       </Router>
     </div>
   );
