@@ -1,16 +1,11 @@
-import { decorate, observable, action } from "mobx";
+import { observable, action } from "mobx";
 
 export class ExampleStore {
-  exampleValue: boolean = true;
+  @observable exampleValue: boolean = true;
 
-  toggleExampleValue: () => void = () => {
+  @action toggleExampleValue: () => void = () => {
     this.exampleValue = !this.exampleValue;
   };
 }
-
-decorate(ExampleStore, {
-  exampleValue: observable,
-  toggleExampleValue: action,
-});
 
 export const exampleStore = new ExampleStore();

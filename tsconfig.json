@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
     "lib": [
       "dom",
       "dom.iterable",
